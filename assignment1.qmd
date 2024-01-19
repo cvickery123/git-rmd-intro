@@ -1,7 +1,8 @@
 ---
 title: "Assignment 1"
 author: "Caroline Vickery"
-format: html
+format:   html:
+    embed-resources: true
 editor: visual
 ---
 
@@ -25,3 +26,8 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+
+```{r}
+#| echo: true
+2 * 2
